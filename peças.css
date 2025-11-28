@@ -1,0 +1,554 @@
+body{
+  background: rgb(47, 7, 7);
+
+overflow-x: hidden;
+
+}
+
+p{
+    color: white;
+    font-style: bolder;
+}
+
+h3{
+    position: relative;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    top: 70px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.conteudo-12{
+       position: relative;
+    right: 8px;
+    top: 40px;
+    background-color: rgb(37, 0, 0);
+    color: rgb(63, 0, 0);
+    width: 110%;
+    height: 550px;
+    z-index: 3;
+    padding-bottom: 0px;
+    padding-top: 0px;
+     margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.conteudo-22{
+     position: relative;
+right: 10px;
+    top: 20px;
+    background-color: rgb(49, 7, 7);
+    color: rgb(63, 0, 0);
+    width: 110%;
+    height: 550px;
+    z-index: 3;
+    padding-bottom: 0px;
+    padding-top: 0px;
+     margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.conteudo-23{
+     position: relative;
+right: 10px;
+    top: 7px;
+    background-color: rgb(37, 0, 0);
+    color: rgb(63, 0, 0);
+   width: 110%;
+    height: 550px;
+    z-index: 3;
+     padding-bottom: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.conteudos123{
+
+         padding-bottom: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.preto{
+
+    position: relative;
+    top: 190px;
+    width: 110%;
+    height: 100%;
+    background-color: black;
+    z-index: 99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
+}
+
+.peças1{
+    position: relative;
+   left: 180px;
+   top: 80px;
+}
+
+#itens1{
+    position: relative;
+    width: 5%;
+    height: 5%;
+      padding-left: 80px;
+    padding-right: 80px;
+  
+}
+
+
+#itens3{
+    
+    position: relative;
+    width: 5%;
+    height: 15%;
+      padding-left: 80px;
+    padding-right: 80px;
+    top: 100px;
+    right: 80px;
+}
+
+.peças2{
+    position: relative;
+   left: 80px;
+   bottom: 80px;
+}
+
+.peças3{
+    position: relative;
+   left: 160px;
+ 
+}
+
+.peças2{
+    position: relative;
+   left: 80px;
+ 
+}
+
+.f1{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    right: 50px;
+}
+
+.f2{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    bottom: 40px;
+        right: 50px;
+
+}
+
+.f3{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    bottom: 17px;
+        right: 50px;
+
+}
+
+
+
+
+
+#zap{
+    position: relative;
+    height: 10%;
+    width: 100%;
+    left: 0%;
+    top: 5%;
+    border: 2px solid rgb(155, 48, 48);
+    border-left: 0px;
+        border-right: 0px;
+
+}
+
+#insta{
+    position: relative;
+    height: 7%;
+    width: 100%;
+    left: 0%;
+    top: 5%;
+    border: 2px solid rgb(155, 48, 48);
+    border-left: 0px;
+        border-right: 0px;
+        border-top: 0px;
+
+}
+
+#peças{
+    position: relative;
+    height: 7%;
+    width: 100%;
+    left: 0%;
+    top: 5%;
+    border: 2px solid rgb(155, 48, 48);
+    border-left: 0px;
+        border-right: 0px;
+        border-top: 0px;
+
+}
+
+#serviços{
+    position: relative;
+    height: 7%;
+    width: 100%;
+    left: 0%;
+    top: 5%;
+    border: 2px solid rgb(155, 48, 48);
+    border-left: 0px;
+        border-right: 0px;
+        border-top: 0px;
+
+}
+
+#anuncio{
+    position: relative;
+    height: 7%;
+    width: 100%;
+    left: 0%;
+    top: 5%;
+    border: 2px solid rgb(155, 48, 48);
+    border-left: 0px;
+        border-right: 0px;
+        border-top: 0px;
+
+}
+
+#story{
+    position: relative;
+    height: 7%;
+    width: 100%;
+    left: 0%;
+    top: 5%;
+    border: 2px solid rgb(155, 48, 48);
+    border-left: 0px;
+        border-right: 0px;
+        border-top: 0px;
+
+}
+
+
+.menubarraaberto{
+    position: fixed;
+    z-index: 999;
+    width: 200px;
+    height: 610px;
+    background: rgb(255, 255, 255);
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+transition: 2s;
+font-family: Arial, Helvetica, sans-serif;
+color: red;
+    opacity: 100%;
+}
+
+.menubarra{
+    position: fixed;
+    z-index: 99999999999999999999999999999;
+    width: 0px;
+    height: 610px;
+    background: rgb(255, 255, 255);
+    bottom: 0px;
+    left: 0px;
+    opacity: 0%;
+    text-align: center;
+transition: 2s;
+font-family: Arial, Helvetica, sans-serif;
+color: red;
+}
+
+
+.barra{
+    position: fixed;
+   top: 0;
+   right: 0;
+   
+    z-index: 5099999999999999999999999999999;
+    
+    width: 104%;
+   height: 40px;
+    background-color: rgb(255, 255, 255);
+}
+
+.conteudo{
+    position: relative;
+    left: 660px;
+    width: 100%;
+    bottom: 70px;
+    
+    
+}
+
+
+.menu{
+    position: relative; 
+    z-index: 999999999999999999999999;
+    right: 590px;
+    cursor: pointer;
+    top: 80px;
+    background: white;
+}
+
+.menui{
+    position: relative; 
+    z-index: 1;
+    right: 590px;
+    cursor: pointer;
+    top: 80px;
+    background: white;
+}
+
+.menufecha{
+    position: relative;
+    z-index:9999999999999999999999999999999;
+    background: rgb(17, 0, 255);
+    opacity: 0%;
+    width: 30px;
+    height: 30px;
+    top: 52px;
+    cursor: pointer;
+    right: 590px;
+    
+}
+
+.menufechai{
+    position: relative;
+    z-index:99;
+    background: rgb(30, 255, 0);
+    opacity: 0%;
+    width: 30px;
+    height: 30px;
+    top: 52px;
+    cursor: pointer;
+    right: 590px;
+    
+}
+
+.logo{
+    position: relative; 
+    z-index: 38;
+    left: 650px;
+    top: 18px;
+    width: 40px;
+    height: 30px;
+
+}
+
+.text3{
+    position: relative;
+ z-index: 99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
+color: white;
+top: 80px;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+padding-left: 80px;
+padding-right:  80px;
+
+}
+
+#bomtext{
+    position: relative;
+    right: 545px;
+    top: 35px;
+}
+
+#battext{
+    position: relative;
+    right: 305px;
+}
+
+#fiotext{
+    position: relative;
+    right: 65px;
+    bottom: 35px;
+}
+
+#cartext{
+    position: relative;
+    left: 175px;
+    bottom: 70px;
+}
+
+#mottext{
+    position: relative;
+    left: 415px;
+     bottom: 105px;
+}
+
+.text2{
+    position: relative;
+ z-index: 999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+
+bottom: 500px;
+right: 80px;
+}
+
+.text22{
+    position: relative;
+ z-index: 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+
+bottom: 440px;
+right: 80px;
+}
+
+.text23{
+    position: relative;
+ z-index: 99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+
+bottom: 360px;
+right: 80px;
+}
+
+.text1{
+    position: relative;
+ z-index: 99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+
+bottom: 10px;
+right: 80px;
+}
+
+
+.conteudos123{
+    position: relative;
+    bottom: 70px;
+}
+
+
+@media(max-width:768px){
+
+
+
+h3{
+    font-size: 35px;
+}
+
+p{
+    display: none;
+}
+
+body{
+ 
+      width: 100%;
+      overflow-x: hidden;
+}
+
+
+.conteudo{
+    position: relative;
+    left: 30px;
+    bottom: 60px;
+}
+.menu{
+    position: relative;
+    left: 10px;
+    top: 70px;
+    z-index: 99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
+}
+
+.menufechai{
+    position: relative;
+    left: 10px;
+    opacity: 0%;
+    top: 40px;
+
+}
+.menufecha{
+    position: relative;
+    left: 10px;
+    opacity: 0%;
+    top: 40px;
+    z-index: 99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
+
+}
+
+.menubarraaberto{
+    position: fixed;
+    top: 6%;
+    font-size: 30px;
+     height: 97%;
+
+    z-index: 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
+}
+
+.menubarra{
+    position: fixed;
+        font-size: 30px;
+left: -120px;
+
+    top: 6%;
+    height: 97%;
+    z-index: 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
+}
+
+
+.logo{
+    position: relative;
+    top: 10px;
+    left: 300px;
+}
+
+    .barra{
+        position: fixed;
+        bottom: 97%;
+        width: 100%;
+        right: 0px;
+    }
+
+.conteudo-12{
+    position: relative;
+   width: 100%;
+ 
+  
+}
+
+.conteudo-22{
+    position: relative;
+ width: 100%;
+ top: 90px;
+}
+
+.conteudo-23{
+    position: relative;
+  width: 100%;
+top: 80px;
+   
+}
+
+.f1{
+    position: relative;
+    width: 108%;
+    left: 3px;
+}
+
+.f2{
+    position: relative;
+    width: 108%;
+    left: 3px;
+}
+
+.f3{
+    position: relative;
+    width: 108%;
+    left: 3px;
+}
+
+}
